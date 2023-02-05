@@ -11,7 +11,7 @@ env:
 workflow_dispatch:
 
   jobs:
-    build-and-push-image:
+    build:
       runs-on: ubuntu-latest
       permissions:
         contents: read
@@ -35,4 +35,3 @@ workflow_dispatch:
             context: ./
             push: true
             tags: ghcr.io/davidemastricci/flask-boston-housing-prediction:latest
-            
