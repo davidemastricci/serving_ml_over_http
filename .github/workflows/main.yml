@@ -35,3 +35,4 @@ workflow_dispatch:
             context: ./
             push: true
             tags: ghcr.io/davidemastricci/flask-boston-housing-prediction:latest
+            
