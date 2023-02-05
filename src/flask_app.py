@@ -33,7 +33,7 @@ def predict():
         }
 
     Output Sample:
-        { "prediction": [19.847994065215634]}
+        { "prediction": [19.8479940652156348]}
     """
     json_payload = request.json
     try:
